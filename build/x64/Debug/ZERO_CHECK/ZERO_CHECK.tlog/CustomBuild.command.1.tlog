@@ -1,0 +1,10 @@
+^C:\USERS\RYAN\DOCUMENTS\UNT\UNT\BUILD\CMAKEFILES\93956799166148FE2F1B21B555D682F5\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Ryan/Documents/unt/unt -BC:/Users/Ryan/Documents/unt/unt/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Ryan/Documents/unt/unt/build/unt.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

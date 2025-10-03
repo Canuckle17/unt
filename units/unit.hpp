@@ -6,11 +6,12 @@
 class Unit {
     public:
         int getCurrHP();
-        int getMinDmg();
-        int getMaxDmg();
+        
         int getSpeed();
         bool isAlive();
 
+        bool attack(Unit target);
+        bool special(Unit target);
 
     protected:
         std::string name;
@@ -23,7 +24,9 @@ class Unit {
         int speed;
 
         bool alive;
-    
-}
+
+        int getAttackDamage();
+        
+};
 
 #endif

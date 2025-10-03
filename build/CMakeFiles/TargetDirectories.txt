@@ -1,0 +1,7 @@
+C:/Users/Ryan/Documents/unt/unt/build/CMakeFiles/unt.dir
+C:/Users/Ryan/Documents/unt/unt/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Ryan/Documents/unt/unt/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Ryan/Documents/unt/unt/build/vendored/SDL/CMakeFiles/SDL3-shared.dir
+C:/Users/Ryan/Documents/unt/unt/build/vendored/SDL/CMakeFiles/SDL3_test.dir
+C:/Users/Ryan/Documents/unt/unt/build/vendored/SDL/CMakeFiles/SDL_uclibc.dir
+C:/Users/Ryan/Documents/unt/unt/build/vendored/SDL/CMakeFiles/ALL_BUILD.dir

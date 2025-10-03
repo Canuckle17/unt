@@ -2,6 +2,14 @@
 #include <iostream>
 
 Game::Game(){
-    gameWindow = nullptr;
     
+}
+
+void update(){
+
+}
+
+void run(){
+        update();
+
 }
