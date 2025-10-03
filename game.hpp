@@ -1,7 +1,8 @@
 #ifndef GAME_H
 #define GAME_H
 
-#include <SDL/SDL.h>
+#include "units/unit.hpp";
+#include <SDL.h>;
 
 enum Game_State {
     title,draft,play,pause,end
@@ -9,7 +10,7 @@ enum Game_State {
 
 enum Turn_State {
     select,attack,special
-}
+};
 
 class Game {
     public:
@@ -18,7 +19,7 @@ class Game {
         void update();
 
     private:
-        currUnit = nullptr;
-        
-}
+        Unit currUnit;
+
+};
 #endif
